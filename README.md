@@ -13,7 +13,7 @@ yapay zekayı kullanarak hızlı, isabetli ve canlı (webcam'den\!) çalışabil
 | **YOLOv8** | Ana Nesne Tespit Modeli | Hız ve doğrulukta zirve\! |
 | **Python** | Kodlama Dili | Her şeyin beyni. |
 | **OpenCV** | Görüntü İşleme | Webcam ve kutu çizimleri için. |
-| **Google Colab** | Eğitim Ortamı | GPU gücüyle modeli hızlıca eğittik. |
+| **Google Colab** | Eğitim Ortamı | GPU gücüyle modeli hızlıca eğitildi. |
 
 
 ## 🖼️ Veri Seti
