@@ -2,6 +2,7 @@
 
 Bu proje Tech İstanbul ve Ecodation Akademi iş birliğinde yapılmış bir görüntü işleme bootcamp görevidir. Makinelerin görme gücünü kullanarak (yani **YOLOv8** ile\!) insanların gözlüklü mü yoksa gözlüksüz mü olduğunu anlık olarak tespit etmeyi amaçlayan  bir **Nesne Tespiti (Object Detection)** projesidir.\!
 
+
 ## 🎯 Projenin Amacı 
 
 yapay zekayı kullanarak hızlı, isabetli ve canlı (webcam'den\!) çalışabilen bir model geliştirmek.
@@ -14,6 +15,7 @@ yapay zekayı kullanarak hızlı, isabetli ve canlı (webcam'den\!) çalışabil
 | **Python** | Kodlama Dili | Her şeyin beyni. |
 | **OpenCV** | Görüntü İşleme | Webcam ve kutu çizimleri için. |
 | **Google Colab** | Eğitim Ortamı | GPU gücüyle modeli hızlıca eğitildi. |
+
 
 
 ## 🖼️ Veri Seti
@@ -30,6 +32,7 @@ Model sadece iki şeyi ayırt etmeyi öğrendi:
 ### Veri Hazırlık Süreci
 
 Tüm resimler ve etiketler, **YOLO formatında** (merkez koordinatları ve normalize edilmiş boyutlar) hazırlandı ve modelin eğitimden önce hiç görmediği resimlerle test edilmesi için **Train, Val (Doğrulama) ve Test** olarak bölündü.
+
 
 
 ## 📈 Modelin Performansı
@@ -56,8 +59,11 @@ results = model(frame, conf=0.5)
 # Kutu çizimi ve etiketleme işlemi...
 ```
 
+
 ## Proje Medium Yazısı
 https://ilknurozgenc.medium.com/yolov8-ile-y%C3%BCzde-g%C3%B6zl%C3%BCk-tespiti-nesne-tespitinde-pratik-bir-ad%C4%B1m-397fd2252c2d?postPublishedType=repub
+
+
 
 ## 🧑‍💻 Katkıda Bulun\! (Gel, Birlikte Geliştirelim\!)
 
