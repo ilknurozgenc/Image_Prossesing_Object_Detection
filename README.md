@@ -1,7 +1,7 @@
 # 🚀 **GÖZLÜKLÜ VS GÖZLÜKSÜZ: Yüzde Gözlük Dedektörü\!** 🕶️
 
 Bu proje Tech İstanbul ve Ecodation Akademi iş birliğinde yapılmış bir görüntü işleme bootcamp görevidir. Makinelerin görme gücünü kullanarak (yani **YOLOv8** ile\!) insanların gözlüklü mü yoksa gözlüksüz mü olduğunu anlık olarak tespit etmeyi amaçlayan  bir **Nesne Tespiti (Object Detection)** projesidir.\!
-
+<br>
 
 ## 🎯 Projenin Amacı 
 
@@ -16,12 +16,11 @@ yapay zekayı kullanarak hızlı, isabetli ve canlı (webcam'den\!) çalışabil
 | **OpenCV** | Görüntü İşleme | Webcam ve kutu çizimleri için. |
 | **Google Colab** | Eğitim Ortamı | GPU gücüyle modeli hızlıca eğitildi. |
 
-
-
+<br> <br>
 ## 🖼️ Veri Seti
 
 Modeli eğitmek için, bir miktar resim toplandı ve her bir yüze elle, makesense.ai ile tek tek **Bounding Box** (sınır kutusu) çizerek etiketlendi.
-
+<br>
 ### Sınıflar (Modelle Konuştuğumuz Dil)
 
 Model sadece iki şeyi ayırt etmeyi öğrendi:
@@ -32,8 +31,7 @@ Model sadece iki şeyi ayırt etmeyi öğrendi:
 ### Veri Hazırlık Süreci
 
 Tüm resimler ve etiketler, **YOLO formatında** (merkez koordinatları ve normalize edilmiş boyutlar) hazırlandı ve modelin eğitimden önce hiç görmediği resimlerle test edilmesi için **Train, Val (Doğrulama) ve Test** olarak bölündü.
-
-
+<br>
 
 ## 📈 Modelin Performansı
 
@@ -59,11 +57,13 @@ results = model(frame, conf=0.5)
 # Kutu çizimi ve etiketleme işlemi...
 ```
 
+<br>
+<br>
 
 ## Proje Medium Yazısı
 https://ilknurozgenc.medium.com/yolov8-ile-y%C3%BCzde-g%C3%B6zl%C3%BCk-tespiti-nesne-tespitinde-pratik-bir-ad%C4%B1m-397fd2252c2d?postPublishedType=repub
 
-
+<br>
 
 ## 🧑‍💻 Katkıda Bulun\! (Gel, Birlikte Geliştirelim\!)
 
