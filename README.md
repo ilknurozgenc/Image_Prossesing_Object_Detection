@@ -56,6 +56,8 @@ results = model(frame, conf=0.5)
 # Kutu çizimi ve etiketleme işlemi...
 ```
 
+## Proje Medium Yazısı
+https://ilknurozgenc.medium.com/yolov8-ile-y%C3%BCzde-g%C3%B6zl%C3%BCk-tespiti-nesne-tespitinde-pratik-bir-ad%C4%B1m-397fd2252c2d?postPublishedType=repub
 
 ## 🧑‍💻 Katkıda Bulun\! (Gel, Birlikte Geliştirelim\!)
 
