@@ -1,0 +1,8 @@
+names:
+- glasses
+- no_glasses
+nc: 2
+path: "/content/drive/MyDrive/y\xFCzde g\xF6zl\xFCk te\u015Fhisi/dataset"
+test: images/test
+train: images/train
+val: images/val
