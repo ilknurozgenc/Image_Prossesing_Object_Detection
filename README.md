@@ -2,6 +2,7 @@
 
 Bu proje Tech İstanbul ve Ecodation Akademi iş birliğinde yapılmış bir görüntü işleme bootcamp görevidir. Makinelerin görme gücünü kullanarak (yani **YOLOv8** ile\!) insanların gözlüklü mü yoksa gözlüksüz mü olduğunu anlık olarak tespit etmeyi amaçlayan  bir **Nesne Tespiti (Object Detection)** projesidir.\!
 <br>
+<br>
 
 ## 🎯 Projenin Amacı 
 
@@ -16,7 +17,9 @@ yapay zekayı kullanarak hızlı, isabetli ve canlı (webcam'den\!) çalışabil
 | **OpenCV** | Görüntü İşleme | Webcam ve kutu çizimleri için. |
 | **Google Colab** | Eğitim Ortamı | GPU gücüyle modeli hızlıca eğitildi. |
 
-<br> <br>
+<br>
+<br>
+
 ## 🖼️ Veri Seti
 
 Modeli eğitmek için, bir miktar resim toplandı ve her bir yüze elle, makesense.ai ile tek tek **Bounding Box** (sınır kutusu) çizerek etiketlendi.
@@ -31,6 +34,8 @@ Model sadece iki şeyi ayırt etmeyi öğrendi:
 ### Veri Hazırlık Süreci
 
 Tüm resimler ve etiketler, **YOLO formatında** (merkez koordinatları ve normalize edilmiş boyutlar) hazırlandı ve modelin eğitimden önce hiç görmediği resimlerle test edilmesi için **Train, Val (Doğrulama) ve Test** olarak bölündü.
+
+<br>
 <br>
 
 ## 📈 Modelin Performansı
@@ -38,6 +43,7 @@ Tüm resimler ve etiketler, **YOLO formatında** (merkez koordinatları ve norma
 Model, **50 Epoch** boyunca eğitildikten sonra oldukça güçlü sonuçlar verdi.
 <img width="1200" height="600" alt="Karışıklık_Matrisi_Confusion_Matrix" src="https://github.com/user-attachments/assets/11e15168-0072-41de-9fce-1bd3f3ca4d9d" />
 
+<br>
 
 ## 📹 Nasıl Çalışır?
 
